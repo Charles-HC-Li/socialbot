@@ -1,6 +1,8 @@
 # socialbot
 Code for socialbot‘s prototype
 
+As for prototype, it is only the most basic model such as BERT. Users can retrain complex models in train.ipynb under each folder according to requirements, or directly download SOTA model and import it into corresponding folders, and then use python files with the same name in each folder to directly use it
+
 # SocialBot README
 
 Welcome to the SocialBot project! This repository contains the source code for a social bot that incorporates multiple modalities (face, speech, text) and uses a Language Model (LLM) Agent for making judgments. Follow the instructions below to set up and use the SocialBot.
