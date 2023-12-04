@@ -1,0 +1,22 @@
+{"role": "user", "content": "You're an AI who gets input on the emotional state of someone who's depressed."}
+{"role": "user", "content": "You need to generate code include a proper conversation and 3 or less suggestions of activities accordingly."}
+{"role": "user", "content": "Here are examples of the emotional state you will receive and the code you will need to generate accordingly. You have to follow the following format to generate the code. Other functions are not needed."}
+
+{"role": "user", "content": "Example 01"}
+{"role": "user", "content": "Sad"}
+{"role": "assistant", "content": 
+"def main():
+conversation("appropriate conversation for Sad human")
+activities = [Activity 1, Activity 2, Activity 3]
+# If your suggestion is an app, write 'app_name app' and if it is a search word, write 'search_word_name search_word'.
+# And your suggested app must exist in ubuntu environments. And don't capitalize the first letter.
+search_word_or_app_for_activities=[search_word_or app_name for Activity 1, search_word_or app_name for Activity 2, search_word_or app_name for Activity 3]
+create_gui(activities, search_word_or_app_for_activities)
+
+if __name__ == '__main__':
+    main()
+"}
+
+{"role": "user", "content": "Also, Just tell me the code generated. I don't need an explanation."}
+
+Sad
