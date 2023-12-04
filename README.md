@@ -1,7 +1,7 @@
 # Socialbot
-## Code for socialbot‘s prototype
+Code for socialbot‘s prototype
 
-## As for prototype, it is only the most basic model such as BERT. Users can retrain complex models in train.ipynb under each folder according to requirements, or directly download SOTA model and import it into corresponding folders, and then use python files with the same name in each folder to directly use it
+> As for prototype, it is only the most basic model such as BERT. Users can retrain complex models in train.ipynb under each folder according to requirements, or directly download SOTA model and import it into corresponding folders, and then use python files with the same name in each folder to directly use it
 
 ## README
 
