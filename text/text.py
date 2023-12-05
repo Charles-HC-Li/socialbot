@@ -48,7 +48,7 @@ def analyze_sentiment(text):
     # Append the result to the input_entry widget
     input_entry.insert(tk.END, formatted_result + "\n")
 
-    with open(r"D:\socialbot\emotion4GPT.txt", 'w') as output_file:
+    with open(r"D:\socialbot\emotion4GPT.txt", 'a') as output_file:
         output_file.write(f"The user's text is detected by the error-prone model as [{emotion}]. Text models are usually the least reliable, and you need to rely more on the [Original text] to judge emotions for yourself\n")
     # Refresh the displayed text in the input_entry widget
     input_entry.update_idletasks()
