@@ -94,3 +94,12 @@ def predict_emotion(audio_file):
 audio_file_path = r"D:\socialbot\speech\recorded_audio.wav"
 predicted_emotion = predict_emotion(audio_file_path)
 print("Predicted Emotion:", predicted_emotion)
+
+# Write the final detected emotion to the output file in D:\1 directory
+output_file_path = r"D:\socialbot\emotion.txt"  # Adjust the path as needed
+with open(output_file_path, 'a') as output_file:
+    output_file.write(f"The user's speech is {predicted_emotion}\n")
+
+output_file_path = r"D:\socialbot\emotion4GPT.txt"  # Adjust the path as needed
+with open(output_file_path, 'a') as output_file:
+    output_file.write(f"The user's speech is detected by the error-prone model as [{predicted_emotion}]. The speech models can sometimes be trusted if same as others.\n")
