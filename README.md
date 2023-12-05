@@ -81,6 +81,13 @@ Welcome to the SocialBot project! This repository contains the source code for a
 
    Note: This step uses the LLM Agent for making judgments based on individual modalities(This step can be omitted if you want to use a multimodal model to obtain the emotion, or use the original model emotion or the emotion of a single mode).
 
+## Resart the round
+
+1. Run the clear script:
+   ```bash
+   python clear.py
+   ```
+
 ## Building Social Bot
 
 1. Navigate to the `LLM` directory:
