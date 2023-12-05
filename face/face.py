@@ -84,11 +84,11 @@ else:
 
 # Write the final detected emotion to the output file in D:\1 directory
 output_file_path = r"D:\socialbot\emotion.txt"  # Adjust the path as needed
-with open(output_file_path, 'w') as output_file:
+with open(output_file_path, 'a') as output_file:
     output_file.write(f"The user's face is {final_emotion}\n")
 
 output_file_path = r"D:\socialbot\emotion4GPT.txt"  # Adjust the path as needed
-with open(output_file_path, 'w') as output_file:
+with open(output_file_path, 'a') as output_file:
     output_file.write(f"The user's face is detected by the error-prone model as [{final_emotion}]. The face models are pretty reliable, except that it's easy to recognize 'Neural' as 'Surprise'.\n")
 
 print("Final Detected Emotion:", final_emotion)
